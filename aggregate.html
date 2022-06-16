@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Aggregate</title>
+        <style type="text/css">
+            h1{
+                color: blue;
+                text-align: center;
+                top: 1px;
+                position: fixed;
+            }
+            body{
+                font-size: 17px;
+                line-height: 26px;
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-image: url(star.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            #content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 70vh;
+                width: 50%;
+                background-color: rgba(0, 0,0,0.8);
+                font-size: 17px;
+                line-height: 26px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><u>Aggregate Operators</u></h1>
+        <div id="content">
+            <p>
+                <ul><li>Aggregate functions in DBMS take multiple rows from the table and return a value according to the query.</li>
+                <li>All the aggregate functions are used in Select statement.</li>
+                <li>SUM Function-This function sums up the values in the column supplied as a parameter.</li>
+                <li>AVG Function-This function returns the average value of the numeric column that is supplied as a parameter.</li>
+                <li>COUNT Function-The count function returns the number of rows in the result. It does not count the null values.</li>
+                <li>MAX Function-The MAX function is used to find maximum value in the column that is supplied as a parameter. It can be used on any type of data.</li>
+                <li>VARIANCE Function-The VARIANCE Function is used to find variance of the column specified as argument.</li>
+                </ul>
+            </p>
+        </div>
+    </body>
